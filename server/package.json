@@ -1,9 +1,14 @@
 {
+<<<<<<< HEAD
   "name": "server",
+=======
+  "name": "contact-server",
+>>>>>>> feature/add-webpack
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ."
   },
@@ -11,5 +16,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.1"
+=======
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+>>>>>>> feature/add-webpack
   }
 }
