@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.static('../client/'));
+//since we want our app to run from our dist directory, we need to update the path, as follows:
+app.use(express.static('../client/dist/'));
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
